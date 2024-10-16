@@ -1,0 +1,19 @@
+.Tarefa{
+    display: flex;
+    gap: 1rem;
+    color: var(--gray-100);
+    font-size: 0.875rem;
+    font-weight: 100;
+    place-content: space-between;
+    padding: 1rem 1rem;
+    background-color: var(--gray-400);
+    border-radius: 8px;
+    margin-top: 1.5rem;
+}   
+
+.Trash:hover{
+    color: var(--danger);
+    cursor: pointer;
+
+}
+
